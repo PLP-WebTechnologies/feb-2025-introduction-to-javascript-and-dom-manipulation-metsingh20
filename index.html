@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">Welcome to My Interactive Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="message">Click the buttons below to interact with this page!</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </section>
+
+    <article id="container">
+      <p>This is an article with content that may change.</p>
+    </article>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 My DOM Page</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

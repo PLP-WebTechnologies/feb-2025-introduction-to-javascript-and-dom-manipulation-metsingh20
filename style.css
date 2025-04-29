@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.added-element {
+  background: #d0f0c0;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #8fbc8f;
+}
